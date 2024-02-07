@@ -21,11 +21,16 @@ import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
-import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import java from './java.svg'
+import jqerry from './JQerry.svg'
+import boot from './bootstrap.svg'
+import python from './Python.svg'
+import calc from './cal.png'
+import hotstar from './Hotstar.png'
 
 export {
     css,
@@ -51,9 +56,14 @@ export {
     pricewise,
     snapgram,
     summiz,
-    threads,
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    java,
+    jqerry,
+    boot,
+    python,
+    calc,
+    hotstar
 }

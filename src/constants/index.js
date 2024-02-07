@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { college,IITG,school } from "../assets/images";
 import {
     car,
     contact,
@@ -22,21 +22,36 @@ import {
     snapgram,
     summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    java,
+    jqerry,
+    boot,
+    python,
+    calc,
+    hotstar
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: express,
-    //     name: "Express",
-    //     type: "Backend",
-    // },
+    {
+        imageUrl: boot,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
     {
         imageUrl: git,
         name: "Git",
@@ -47,34 +62,20 @@ export const skills = [
         name: "GitHub",
         type: "Version Control",
     },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
+   
     {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
+        imageUrl: jqerry,
+        name: "Motion",
+        type: "Animation",
     },
-    // {
-    //     imageUrl: motion,
-    //     name: "Motion",
-    //     type: "Animation",
-    // },
-    // {
-    //     imageUrl: java,
-    //     name: "Material-UI",
-    //     type: "Frontend",
-    // },
     {
-        imageUrl: nextjs,
-        name: "Next.js",
+        imageUrl: react,
+        name: "React",
         type: "Frontend",
     },
     {
@@ -83,25 +84,35 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: react,
-        name: "React",
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: redux,
-    //     name: "Redux",
-    //     type: "State Management",
-    // },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Frontend",
+    },
+    
+    
+    
+    {
+        imageUrl: python,
+        name: "Redux",
+        type: "State Management",
+    },
     // {
     //     imageUrl: sass,
     //     name: "Sass",
     //     type: "Frontend",
     // },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
+    
     {
         imageUrl: typescript,
         name: "TypeScript",
@@ -113,7 +124,7 @@ export const experiences = [
     {
         title: "St. Augustine High School",
         company_name: "Till Matriculation",
-        icon: starbucks,
+        icon: school,
         iconBg: "#accbe1",
         date: "March 2012 - April 2019",
         points: [
@@ -125,7 +136,7 @@ export const experiences = [
     {
         title: "Inter Science College",
         company_name: "Intermidiate",
-        icon: tesla,
+        icon: college,
         iconBg: "#fbc3bc",
         date: "Apr 2019 - Mar 2021",
         points: [
@@ -137,7 +148,7 @@ export const experiences = [
     {
         title: "IIT Guwahati",
         company_name: "B.Sc.(Honours) in DA & AI",
-        icon: shopify,
+        icon: IITG,
         iconBg: "#b7e4c7",
         date: "Sep 2023 - Present",
         points: [
@@ -182,14 +193,14 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: calc,
         theme: 'btn-back-red',
         name: 'Calculator',
         description: 'Developed a calculator where we can perfom mathematical operations. I used HTML, CSS and JavaScript.',
         link: 'https://ankitraj061.github.io/Calculator/',
     },
     {
-        iconUrl: threads,
+        iconUrl: hotstar,
         theme: 'btn-back-green',
         name: 'Hotstar-Clone',
         description: 'Created a hotstar clone just to check our designing and functionality skills ',
