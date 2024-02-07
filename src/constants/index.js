@@ -157,10 +157,10 @@ export const experiences = [
         iconBg: "#b7e4c7",
         date: "Sep 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Amidst the excitement of being part of my dream college, I encountered and navigated real-world challenges, contributing to my personal and academic growth.",
+            "The challenges became opportunities to delve into the intricacies of data science, honing my skills in building AI models. The hands-on experiences provided a profound understanding of the field",
+            "Maintaining an impressive CGPA of 9, my academic journey has been marked by dedication and excellence.",
+            
         ],
     },
     // {
