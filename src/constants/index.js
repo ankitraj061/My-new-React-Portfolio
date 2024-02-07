@@ -28,7 +28,9 @@ import {
     boot,
     python,
     calc,
-    hotstar
+    hotstar,
+    mysql,
+    excel
 } from "../assets/icons";
 
 export const skills = [
@@ -93,31 +95,34 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    
+    {
+        imageUrl: mysql,
+        name: "Sass",
+        type: "Frontend",
+    },
     {
         imageUrl: java,
         name: "Java",
         type: "Frontend",
     },
-    
-    
-    
     {
         imageUrl: python,
         name: "Redux",
         type: "State Management",
     },
-    // {
-    //     imageUrl: sass,
-    //     name: "Sass",
-    //     type: "Frontend",
-    // },
+    {
+        imageUrl: excel,
+        name: "Redux",
+        type: "State Management",
+    },
+    
     
     {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
     }
+
 ];
 
 export const experiences = [

@@ -31,7 +31,8 @@ import boot from './bootstrap.svg'
 import python from './Python.svg'
 import calc from './cal.png'
 import hotstar from './Hotstar.png'
-
+import mysql from './mysql.svg'
+import excel from './Excel.svg'
 export {
     css,
     express,
@@ -65,5 +66,7 @@ export {
     boot,
     python,
     calc,
-    hotstar
+    hotstar,
+    mysql,
+    excel
 }
