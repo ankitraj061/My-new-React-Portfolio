@@ -176,7 +176,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/ankit-raj-44a8a824b',
+        link: 'https://www.linkedin.com/in/ankitraj061',
     }
 ];
 
@@ -184,16 +184,16 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Calculator',
+        description: 'Developed a calculator where we can perfom mathematical operations. I used HTML, CSS and JavaScript.',
+        link: 'https://ankitraj061.github.io/Calculator/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Hotstar-Clone',
+        description: 'Created a hotstar clone just to check our designing and functionality skills ',
+        link: 'https://ankitraj061.github.io/Hotstar-clone/',
     },
     {
         iconUrl: car,
