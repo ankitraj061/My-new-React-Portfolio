@@ -151,7 +151,7 @@ export const experiences = [
         ],
     },
     {
-        title: "IIT Guwahati",
+        title: "Indian Institute of Technology, Guwahati",
         company_name: "B.Sc.(Honours) in DA & AI",
         icon: IITG,
         iconBg: "#b7e4c7",

@@ -47,7 +47,7 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Educational Journey.</h3>
+        <h3 className='subhead-text'>Educational Journey</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
           In my educational journey, I have cultivated a foundation of knowledge through a dedicated pursuit of learning, navigating both the formative years of schooling and the enriching experiences of college life.
