@@ -81,15 +81,16 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
     },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+   
     {
         imageUrl: mongodb,
         name: "MongoDB",
