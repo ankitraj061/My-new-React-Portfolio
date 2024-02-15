@@ -1,6 +1,6 @@
 import { college,IITG,school } from "../assets/images";
 import {
-    car,
+    qr,
     contact,
     css,
     estate,
@@ -213,11 +213,11 @@ export const projects = [
         link: 'https://ankitraj061.github.io/Hotstar-clone/',
     },
     {
-        iconUrl: car,
+        iconUrl: qr,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'QR-Code Generator',
+        description: 'Built a QR code generator with the help of Node.js and Express.js which takes in a URL and returns a QR code image and also allows the user to download it.',
+        link: 'https://github.com/ankitraj061/QR-Code-Generater',
     },
     {
         iconUrl: snapgram,

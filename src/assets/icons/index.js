@@ -16,7 +16,6 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
@@ -33,6 +32,7 @@ import calc from './cal.png'
 import hotstar from './Hotstar.png'
 import mysql from './mysql.svg'
 import excel from './Excel.svg'
+import qr from './qr.svg'
 export {
     css,
     express,
@@ -52,7 +52,6 @@ export {
     typescript,
     linkedin,
     twitter,
-    car,
     estate,
     pricewise,
     snapgram,
@@ -68,5 +67,6 @@ export {
     calc,
     hotstar,
     mysql,
-    excel
+    excel,
+    qr
 }
