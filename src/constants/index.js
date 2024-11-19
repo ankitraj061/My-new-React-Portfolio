@@ -236,8 +236,8 @@ export const projects = [
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'BigInteger Class Implementation',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        name: 'BigInteger Class',
+        description: 'Implemented BigInteger class of Java for efficient arithmetic operations on large numbers that can handle numbers of arbitrary size.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
