@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Ankit</span>
         👋
         <br />
-        A Student at IIT Guwahati 
+        A Student at PW Institute of Innovation 
       </h1>
     );
 
