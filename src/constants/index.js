@@ -134,7 +134,7 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "March 2012 - April 2019",
         points: [
-            "I rocked at math, always in the top 10 during my school years till the 10th grade.",
+            "I rocked at math, always in the top 3 during my school years till the 10th grade.",
             "I was the head honcho of the green group, leading with fun and competition, learning about teamwork and leadership.",
             "No stress about the future – just playing more, studying less, and enjoying the green group vibe made my early school days unforgettable.",
         ],
