@@ -8,6 +8,7 @@ const App = () => {
     <main className='bg-slate-300/20'>
       <Router>
         <Navbar />
+        //hello
         <Routes>
           <Route path='/' element={<Home />} />
           <Route
