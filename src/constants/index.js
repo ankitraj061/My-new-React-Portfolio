@@ -152,15 +152,15 @@ export const experiences = [
         ],
     },
     {
-        title: "Indian Institute of Technology, Guwahati",
-        company_name: "B.Sc.(Honours) in DA & AI",
+        title: "PW institute of innovation",
+        company_name: "B.Sc.(Honours) in Computer Science & AI",
         icon: IITG,
         iconBg: "#b7e4c7",
         date: "Sep 2023 - Present",
         points: [
-            "Amidst the excitement of being part of my dream college, I encountered and navigated real-world challenges, contributing to my personal and academic growth.",
-            "The challenges became opportunities to delve into the intricacies of data science, honing my skills in building AI models. The hands-on experiences provided a profound understanding of the field",
-            "Maintaining an impressive CGPA of 9, my academic journey has been marked by dedication and excellence.",
+            "I am currently studying at an institution where I am learning skills relevant to the corporate world.",
+"For my degree, I have joined IIT Guwahati (IITG).",
+"IITG is a dream college for many engineering graduates in India."
             
         ],
     },
