@@ -106,23 +106,23 @@ export const skills = [
         name: "Java",
         type: "Frontend",
     },
-    {
-        imageUrl: python,
-        name: "Redux",
-        type: "State Management",
-    },
+    // {
+    //     imageUrl: python,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
     {
         imageUrl: excel,
         name: "Redux",
         type: "State Management",
-    },
+    }//,
     
     
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 
 ];
 
