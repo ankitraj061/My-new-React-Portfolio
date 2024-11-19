@@ -230,7 +230,7 @@ export const projects = [
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Creative To-Do List',
-        description: 'Developed a To-Do List using HTML, CSS, and JavaScript.',
+        description: 'Developed a To-Do List using HTML, CSS, and JavaScript. I have tried to incorporate some creativity; follow the link to check it out.',
         link: 'https://to-do-list-psi-tan.vercel.app/',
     },
     {
