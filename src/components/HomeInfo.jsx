@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Build multiple projects with in Web Development <br /> and Welcome you here!
+          Build multiple projects in Web Development along the years <br /> and Welcome you here!
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
