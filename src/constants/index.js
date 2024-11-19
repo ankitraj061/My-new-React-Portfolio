@@ -229,15 +229,16 @@ export const projects = [
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Crative To-Do List',
+        description: 'Developed a To-Do List using HTML, CSS, and JavaScript.',
+        link: 'https://to-do-list-psi-tan.vercel.app/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'BigInteger Class',
         description: 'Implemented a BigInteger class in Java, enabling efficient arithmetic operations on large integer values.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://github.com/ankitraj061/CustomBigIntegerClassImplementation.git',
     }
 ];
+ 
