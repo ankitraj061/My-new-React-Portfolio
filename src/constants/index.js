@@ -237,7 +237,7 @@ export const projects = [
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'BigInteger Class',
-        description: 'Implemented BigInteger class of Java for efficient arithmetic operations on large numbers that can handle numbers of arbitrary size.',
+        description: 'Implemented a BigInteger class in Java, enabling efficient arithmetic operations on large integer values.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
