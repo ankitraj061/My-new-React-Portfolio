@@ -75,16 +75,16 @@ export const skills = [
         name: "Motion",
         type: "Animation",
     },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: react,
+    //     name: "React",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: nextjs,
+    //     name: "Next.js",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: nodejs,
         name: "Node.js",
