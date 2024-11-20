@@ -11,6 +11,8 @@ const HomeInfo = ({ currentStage }) => {
         👋
         <br />
         A Student at PW Institute of Innovation 
+        <br />
+        &larr; Use for Navigation &rarr;
       </h1>
     );
 
