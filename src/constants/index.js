@@ -1,5 +1,6 @@
 import { college,IITG,school } from "../assets/images";
 import {
+    powerbi,
     qr,
     contact,
     css,
@@ -106,11 +107,11 @@ export const skills = [
         name: "Java",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: python,
-    //     name: "Redux",
-    //     type: "State Management",
-    // },
+    {
+        imageUrl: powerbi,
+        name: "Power BI",
+        type: "Data Visualization",
+    },
     {
         imageUrl: excel,
         name: "Redux",

@@ -33,7 +33,9 @@ import hotstar from './Hotstar.png'
 import mysql from './mysql.svg'
 import excel from './Excel.svg'
 import qr from './qr.svg'
+import powerbi from 'powerbi.png'
 export {
+    powerbi,
     css,
     express,
     git,
