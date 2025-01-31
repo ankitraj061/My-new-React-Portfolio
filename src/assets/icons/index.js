@@ -33,7 +33,8 @@ import hotstar from './Hotstar.png'
 import mysql from './mysql.svg'
 import excel from './Excel.svg'
 import qr from './qr.svg'
-import powerbi from 'powerbi.png'
+import powerbi from './powerbi.png'
+import pwlogo from './pwlogo.png'
 export {
     powerbi,
     css,
@@ -70,5 +71,6 @@ export {
     hotstar,
     mysql,
     excel,
-    qr
+    qr,
+    pwlogo
 }

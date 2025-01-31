@@ -31,7 +31,8 @@ import {
     calc,
     hotstar,
     mysql,
-    excel
+    excel,
+    pwlogo
 } from "../assets/icons";
 
 export const skills = [
@@ -56,31 +57,24 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-   
-    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
     },
     {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+   
+   
+   
+    {
         imageUrl: jqerry,
         name: "Motion",
         type: "Animation",
     },
-    // {
-    //     imageUrl: react,
-    //     name: "React",
-    //     type: "Frontend",
-    // },
+    
     // {
     //     imageUrl: nextjs,
     //     name: "Next.js",
@@ -89,6 +83,11 @@ export const skills = [
     {
         imageUrl: nodejs,
         name: "Node.js",
+        type: "Backend",
+    },
+    {
+        imageUrl: express,
+        name: "Express",
         type: "Backend",
     },
    
@@ -116,7 +115,17 @@ export const skills = [
         imageUrl: excel,
         name: "Redux",
         type: "State Management",
-    }//,
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
     
     
     // {
@@ -125,19 +134,19 @@ export const skills = [
     //     type: "Frontend",
     // }
 
+
+
 ];
 
-export const experiences = [
+export const education = [
     {
         title: "St. Augustine High School",
-        company_name: "Till Matriculation",
+        company_name: "Matriculation",
         icon: school,
         iconBg: "#accbe1",
         date: "March 2012 - April 2019",
         points: [
-            "I rocked at math, always in the top 3 during my school years till the 10th grade.",
-            "I was the head honcho of the green group, leading with fun and competition, learning about teamwork and leadership.",
-            "No stress about the future – just playing more, studying less, and enjoying the green group vibe made my early school days unforgettable.",
+            "Excelled in math, consistently top 3 in school until 10th grade."
         ],
     },
     {
@@ -147,37 +156,21 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Apr 2019 - Mar 2021",
         points: [
-            "In 11th grade, I dove into the realms of Maths and computer science, sparking my interest in programming, and initiating my coding journey with C++.",
-            "Upon learning about JEE Mains after completing 11th, I shifted gears to intense exam preparation, setting my sights on a challenging yet rewarding academic pursuit.",
-            "The emergence of the COVID-19 pandemic during my preparations disrupted our studies significantly, presenting unforeseen challenges and reshaping the dynamics of my academic journey.",
+            "Started coding with C++ in 11th, later focused on JEE prep, overcoming COVID-19 challenges."
         ],
     },
     {
-        title: "PW institute of innovation",
-        company_name: "B.Sc.(Honours) in Computer Science & AI",
+        title: "IIT Guwahati",
+        company_name: "B.Sc.(Honours) in Data Science & AI",
         icon: IITG,
         iconBg: "#b7e4c7",
         date: "Sep 2023 - Present",
         points: [
-            "I am currently studying at an institution where I am learning skills relevant to the corporate world.",
-"For my degree, I have joined IIT Guwahati (IITG).",
-"IITG is a dream college for many engineering graduates in India."
+            "Currently studying at IIT Guwahati (IITG), gaining skills essential for the corporate world, a dream college for many."
             
         ],
     },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    
 ];
 
 export const socialLinks = [
@@ -243,3 +236,17 @@ export const projects = [
     }
 ];
  
+
+export const experience = [
+    {
+        title: "Frontend Developer Intern",
+        company_name: "Physics Wallah",
+        icon: pwlogo,
+        iconBg: "#E6DEDD",
+        date: "Dec 2024 - Present",
+        points: [
+            "Developed and maintained React-based web applications, implementing modern designs",
+            "Collaborated with the development team to create responsive and interactive frontend solutions"
+        ],
+    }
+]
