@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
+import SplashCursor from '../components/SplashCursor';
 
 const Projects = () => {
   return (
@@ -64,6 +65,7 @@ const Projects = () => {
       <hr className='border-slate-200' />
 
       <CTA />
+      <SplashCursor />
     </section>
   );
 };

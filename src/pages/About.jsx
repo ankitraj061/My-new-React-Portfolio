@@ -2,6 +2,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import { CTA } from "../components";
 import { education, skills, experience } from "../constants";
 import "react-vertical-timeline-component/style.min.css";
+import SplashCursor from '../components/SplashCursor';
 
 
 const About = () => {
@@ -163,6 +164,7 @@ const About = () => {
       <hr className='border-slate-200' />
 
       <CTA />
+      <SplashCursor />
     </section>
   );
 };

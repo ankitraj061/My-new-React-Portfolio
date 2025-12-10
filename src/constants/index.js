@@ -75,11 +75,11 @@ export const skills = [
         type: "Animation",
     },
     
-    // {
-    //     imageUrl: nextjs,
-    //     name: "Next.js",
-    //     type: "Frontend",
-    // },
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
+        type: "Frontend",
+    },
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -128,11 +128,11 @@ export const skills = [
     },
     
     
-    // {
-    //     imageUrl: typescript,
-    //     name: "TypeScript",
-    //     type: "Frontend",
-    // }
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    }
 
 
 
@@ -195,16 +195,16 @@ export const projects = [
     {
         iconUrl: calc,
         theme: 'btn-back-red',
-        name: 'Calculator',
-        description: 'Developed a calculator where we can perfom mathematical operations. I used HTML, CSS and JavaScript.',
-        link: 'https://ankitraj061.github.io/Calculator/',
+        name: 'Cricket Auction Management System',
+        description: 'Developed a full-stack auction website where teams can bid for available players or mark them as unsold. I built this for our own turf cricket league, which had more than 60 players participating.',
+        link: 'https://github.com/ankitraj061/cricket-auction-frontend',
     },
     {
         iconUrl: hotstar,
         theme: 'btn-back-green',
-        name: 'Hotstar-Clone',
-        description: 'Created a hotstar clone just to check our designing and functionality skills ',
-        link: 'https://ankitraj061.github.io/Hotstar-clone/',
+        name: 'Job Sphere (Job Portal)',
+        description: 'Built a Job Portal where admin can post jobs and candidates can apply for those jobs. Implemented features like job search, filtering, and application tracking.',
+        link: 'https://github.com/ankitraj061/job_sphere',
     },
     {
         iconUrl: qr,
@@ -216,9 +216,9 @@ export const projects = [
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'TrueCode (Coding Platform Similar to LeetCode)',
+        description: 'Developed a full-stack coding platform using MERN stack where users can solve coding problems, view leaderboards, and discuss solutions.',
+        link: 'https://github.com/ankitraj061/leetcode_frontend',
     },
     {
         iconUrl: estate,

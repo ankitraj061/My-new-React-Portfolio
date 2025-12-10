@@ -5,6 +5,7 @@ import { Suspense, useRef, useState } from "react";
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
+import SplashCursor from '../components/SplashCursor';
 
 const Contact = () => {
   const formRef = useRef();
@@ -166,6 +167,7 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
+      <SplashCursor />
     </section>
   );
 };
