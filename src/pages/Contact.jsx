@@ -5,7 +5,7 @@ import { Suspense, useRef, useState } from "react";
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
-import SplashCursor from '../components/SplashCursor';
+import { BackgroundLines } from "@/components/ui/background-lines";
 
 const Contact = () => {
   const formRef = useRef();
@@ -73,7 +73,8 @@ const Contact = () => {
   };
 
   return (
-    <section className='relative flex lg:flex-row flex-col max-container'>
+    <BackgroundLines className='w-full'>
+      <section className='relative flex lg:flex-row flex-col max-container'>
       {alert.show && <Alert {...alert} />}
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
@@ -104,7 +105,7 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='Ankit@gmail.com'
+              placeholder='ankitraj.me1@gmail.com'
               required
               value={form.email}
               onChange={handleChange}
@@ -167,8 +168,8 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
-      <SplashCursor />
-    </section>
+      </section>
+    </BackgroundLines>
   );
 };
 

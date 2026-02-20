@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Ankit</span>
         👋
         <br />
-        A Student at PW Institute of Innovation 
+        A Software Engineer currently working in Physics wallah as a Full Stack Developer
         <br />
        Use &rarr; to move forward
       </h1>
@@ -20,7 +20,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Completed many projects <br /> and picked up many skills along the way
+           Learning everyday some new things and applying into real world.
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>

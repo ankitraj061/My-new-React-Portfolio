@@ -35,7 +35,13 @@ import excel from './Excel.svg'
 import qr from './qr.svg'
 import powerbi from './powerbi.png'
 import pwlogo from './pwlogo.png'
+import postman from './postman.png'
+import aws from './aws.png'
+import x from './x.png'
+import redis from './redis.png'
+import socketio from './socketio.png'
 export {
+    postman,
     powerbi,
     css,
     express,
@@ -72,5 +78,9 @@ export {
     mysql,
     excel,
     qr,
-    pwlogo
+    pwlogo,
+    aws,
+    x,
+    redis,
+    socketio,
 }

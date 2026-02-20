@@ -1,4 +1,4 @@
-import { college,IITG,school } from "../assets/images";
+import { college,IITG,school,auctionwebsite,jobsphere,truecode,taskflow,bigInteger,expanseplanner,instagram } from "../assets/images";
 import {
     powerbi,
     qr,
@@ -32,54 +32,65 @@ import {
     hotstar,
     mysql,
     excel,
-    pwlogo
+    pwlogo,
+    postman,
+    aws,
+    x,
+    redis,
+    socketio,
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: boot,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: html,
+    //     name: "HTML",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: css,
+    //     name: "CSS",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: boot,
+    //     name: "Express",
+    //     type: "Backend",
+    // },
+    // {
+    //     imageUrl: tailwindcss,
+    //     name: "Tailwind CSS",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: javascript,
         name: "JavaScript",
-        type: "Frontend",
+        type: "Frontend/Backend",
+    },
+     {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend/Backend",
     },
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
     },
-   
-   
-   
-    {
-        imageUrl: jqerry,
-        name: "Motion",
-        type: "Animation",
-    },
-    
     {
         imageUrl: nextjs,
         name: "Next.js",
-        type: "Frontend",
+        type: "Full-Stack",
     },
+    {
+        imageUrl: redux,
+        name: "Redux",
+        type: "State Management",
+    },
+   
+   
+  
+    
+    
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -98,23 +109,35 @@ export const skills = [
     },
     {
         imageUrl: mysql,
-        name: "Sass",
-        type: "Frontend",
+        name: "MySQL",
+        type: "Database",
+    },
+     {
+        imageUrl: redis,
+        name: "Redis",
+        type: "Database",
     },
     {
         imageUrl: java,
         name: "Java",
-        type: "Frontend",
+        type: "Programming Language",
     },
+    
     {
         imageUrl: powerbi,
         name: "Power BI",
         type: "Data Visualization",
     },
+   
     {
         imageUrl: excel,
-        name: "Redux",
-        type: "State Management",
+        name: "Excel",
+        type: "Data Analysis",
+    },
+    {
+        imageUrl: socketio,
+        name: "Socket.IO",
+        type: "Real-time Communication",
     },
     {
         imageUrl: git,
@@ -125,14 +148,20 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
+    },{
+        imageUrl: postman,
+        name: "Postman",
+        type: "API Testing",
     },
-    
-    
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+        imageUrl: aws,
+        name: "AWS",
+        type: "Cloud Computing",
+    },
+
+    
+    
+   
 
 
 
@@ -166,7 +195,8 @@ export const education = [
         iconBg: "#b7e4c7",
         date: "Sep 2023 - Present",
         points: [
-            "Currently studying at IIT Guwahati (IITG), gaining skills essential for the corporate world, a dream college for many."
+            "Currently studying at IIT Guwahati (IITG), gaining skills essential for the corporate world, a dream college for many.",
+            "Grade : 8.14 CPI (Till 7th Trimester)"
             
         ],
     },
@@ -185,55 +215,82 @@ export const socialLinks = [
         link: 'https://github.com/ankitraj061',
     },
     {
+        name: 'X (Twitter)',
+        iconUrl: x,
+        link: 'https://x.com/AnkitRaj432315',
+    },
+    {
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/ankitraj061',
+    },{
+        name: 'Instagram',
+        iconUrl: instagram,
+        link: 'https://www.instagram.com/ankitraj061/',
     }
 ];
 
 export const projects = [
-    {
-        iconUrl: calc,
-        theme: 'btn-back-red',
-        name: 'Cricket Auction Management System',
-        description: 'Developed a full-stack auction website where teams can bid for available players or mark them as unsold. I built this for our own turf cricket league, which had more than 60 players participating.',
-        link: 'https://github.com/ankitraj061/cricket-auction-frontend',
+     {
+        iconUrl: truecode,
+        theme: 'btn-back-pink',
+        name: 'TrueCode (Coding Platform Similar to LeetCode)',
+        description: 'Developed a full-stack coding platform using MERN stack where users can solve coding problems, view leaderboards, and discuss solutions.',
+        skills: ['Next.js','Redux', 'Node.js', 'Express', 'MongoDB','TypeScript','Redis','Zudge0','Compiler'],
+        githubLink: 'https://github.com/ankitraj061/leetcode_frontend',
+        liveLink: 'https://truecode.shop',
     },
     {
-        iconUrl: hotstar,
+        iconUrl: auctionwebsite,
+        theme: 'btn-back-red',
+        name: 'Cricket Auction Management System',
+        description: 'Developed a full-stack auction website where teams can bid for available players or mark them as unsold. I built this for our own turf cricket league, which had more than 60 players participating. ',
+        skills: ['Next.js', 'Node.js', 'Express', 'PostgreSQL','Prisma ORM','Redis'],
+        githubLink: 'https://github.com/ankitraj061/cricket-auction-frontend',
+        liveLink: 'https://www.turfcricket.online/',
+    },
+    {
+        iconUrl: jobsphere,
         theme: 'btn-back-green',
         name: 'Job Sphere (Job Portal)',
-        description: 'Built a Job Portal where admin can post jobs and candidates can apply for those jobs. Implemented features like job search, filtering, and application tracking.',
-        link: 'https://github.com/ankitraj061/job_sphere',
+        description: 'Built a Job Portal where admin can post jobs and candidates can apply for the jobs. This project is i built for End-Semester project in my college and selected as one of the best projects in our department and got a Certificate of Excellence for the same.',
+        skills: ['Next.js', 'Node.js', 'Express', 'PostgreSQL','Prisma ORM','TypeScript'],
+        githubLink: 'https://github.com/ankitraj061/job_sphere',
+    },
+      {
+        iconUrl: taskflow,
+        theme: 'btn-back-yellow',
+        name: 'TaskFlow (Task Management App)',
+        description: 'Built a Realtime Task Management App similar to Trello, Jira, where users can create boards, lists, and cards to manage their tasks effectively. Implemented features like drag-and-drop, due dates, etc.',
+        skills: ['Next.js', 'Node.js', 'Express', 'PostgreSQL','Prisma ORM','TypeScript','Socket.IO'],
+        githubLink: 'https://github.com/ankitraj061/taskflow',
     },
     {
         iconUrl: qr,
         theme: 'btn-back-blue',
         name: 'QR-Code Generator',
         description: 'Built a QR code generator with the help of Node.js and Express.js which takes in a URL and returns a QR code image and also allows the user to download it.',
-        link: 'https://github.com/ankitraj061/QR-Code-Generater',
+        skills: ['Node.js', 'Express', 'JavaScript'],
+        githubLink: 'https://github.com/ankitraj061/QR-Code-Generater',
     },
+   
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'TrueCode (Coding Platform Similar to LeetCode)',
-        description: 'Developed a full-stack coding platform using MERN stack where users can solve coding problems, view leaderboards, and discuss solutions.',
-        link: 'https://github.com/ankitraj061/leetcode_frontend',
-    },
-    {
-        iconUrl: estate,
+        iconUrl: expanseplanner,
         theme: 'btn-back-black',
-        name: 'Creative To-Do List',
-        description: 'Developed a To-Do List using HTML, CSS, and JavaScript. I have tried to incorporate some creativity; follow the link to check it out.',
-        link: 'https://to-do-list-psi-tan.vercel.app/',
+        name: 'Expanse Planner',
+        description: 'Built a full-stack expense planner application where users can track their expenses, set budgets, and visualize their spending habits with charts and graphs.',
+        skills: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'],
+        liveLink: 'https://github.com/ankitraj061/ExpansePlanner',
     },
     {
-        iconUrl: summiz,
+        iconUrl: bigInteger,
         theme: 'btn-back-yellow',
         name: 'BigInteger Class',
         description: 'Implemented a BigInteger class in Java, enabling efficient arithmetic operations on large integer values.',
-        link: 'https://github.com/ankitraj061/CustomBigIntegerClassImplementation.git',
-    }
+        skills: ['Java'],
+        githubLink: 'https://github.com/ankitraj061/CustomBigIntegerClassImplementation.git',
+    },
+  
 ];
  
 
