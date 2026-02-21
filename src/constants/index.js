@@ -17,7 +17,6 @@ import {
     nextjs,
     nodejs,
     pricewise,
-    react,
     redux,
     sass,
     snapgram,
@@ -38,6 +37,7 @@ import {
     x,
     redis,
     socketio,
+        react
 } from "../assets/icons";
 
 export const skills = [
@@ -264,6 +264,8 @@ export const projects = [
         description: 'Built a Realtime Task Management App similar to Trello, Jira, where users can create boards, lists, and cards to manage their tasks effectively. Implemented features like drag-and-drop, due dates, etc.',
         skills: ['Next.js', 'Node.js', 'Express', 'PostgreSQL','Prisma ORM','TypeScript','Socket.IO'],
         githubLink: 'https://github.com/ankitraj061/taskflow',
+        liveLink: 'https://taskflow.ankitraj.fun',
+
     },
     {
         iconUrl: qr,
@@ -280,7 +282,7 @@ export const projects = [
         name: 'Expanse Planner',
         description: 'Built a full-stack expense planner application where users can track their expenses, set budgets, and visualize their spending habits with charts and graphs.',
         skills: ['React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL'],
-        liveLink: 'https://github.com/ankitraj061/ExpansePlanner',
+        githubLink: 'https://github.com/ankitraj061/ExpansePlanner',
     },
     {
         iconUrl: bigInteger,

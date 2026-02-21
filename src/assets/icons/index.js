@@ -9,7 +9,6 @@ import motion from './motion.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
-import react from './react.svg'
 import redux from './redux.svg'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
@@ -40,6 +39,7 @@ import aws from './aws.png'
 import x from './x.png'
 import redis from './redis.png'
 import socketio from './socketio.png'
+import react from './react.png'
 export {
     postman,
     powerbi,
@@ -54,7 +54,6 @@ export {
     mui,
     nextjs,
     nodejs,
-    react,
     redux,
     sass,
     tailwindcss,
@@ -83,4 +82,5 @@ export {
     x,
     redis,
     socketio,
+    react
 }
