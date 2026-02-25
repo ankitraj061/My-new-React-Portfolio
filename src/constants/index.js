@@ -37,7 +37,8 @@ import {
     x,
     redis,
     socketio,
-        react
+        react,
+        docker
 } from "../assets/icons";
 
 export const skills = [
@@ -158,6 +159,11 @@ export const skills = [
         name: "AWS",
         type: "Cloud Computing",
     },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Containerization",
+    }
 
     
     

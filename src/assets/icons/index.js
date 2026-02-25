@@ -40,6 +40,7 @@ import x from './x.png'
 import redis from './redis.png'
 import socketio from './socketio.png'
 import react from './react.png'
+import docker from './docker.png'
 export {
     postman,
     powerbi,
@@ -82,5 +83,6 @@ export {
     x,
     redis,
     socketio,
-    react
+    react,
+    docker
 }
